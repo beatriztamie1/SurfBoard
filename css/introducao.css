@@ -1,0 +1,246 @@
+/*.container {
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+.body {
+  max-width: 1200px;
+  font-family: "nunito", sans-serif;
+}
+
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.topo-pag {
+  font-size: 0, 875rem;
+  font-weight: bold;
+  background-color: #1188ee;
+  color: #ffffff;
+  text-align: start;
+  padding: 6px;
+  padding-left: 47px;
+  padding-right: 47px;
+}
+
+.lista-itens1 {
+  flex-wrap: wrap;
+  padding: 47px;
+  background-color: #17222d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lista-itens2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 38px;
+}
+
+.lista-itens2 li a {
+  color: #ffffff;
+}
+
+.lista-itens2 a {
+  font-size: 1.125rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.lista-itens2 li {
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 10px;
+}
+
+.lista-itens2 li:hover {
+  background-color: #172228;
+  padding: 10px;
+}
+
+.introducao-surf img {
+  flex-wrap: wrap;
+  max-width: 100%;
+  position: relative;
+}
+
+.introducao-surf p {
+  font-family: "alice staic";
+  font-size: 4.05rem;
+  position: absolute;
+  color: #ffffff;
+  top: 500px;
+  left: 45px;
+}
+
+.form-email input {
+  position: absolute;
+  width: 300px;
+  padding: 14px 11px;
+  top: 510px;
+  left: 1230px;
+  align-items: center;
+}
+
+.form-email ::placeholder {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.form-email button {
+  position: absolute;
+  width: 50;
+  padding: 12px 11px;
+  padding-top: 11px;
+  top: 510px;
+  left: 1556px;
+  align-items: center;
+  background: #ee2211;
+  color: #ffffff;
+  box-shadow: none;
+  font-weight: bold;
+  font-size: 1.25rem;
+  font-family: "nunito" sans-serif;
+  border: #17222d;
+}
+
+.form-email button:hover {
+  transition: 0.2s;
+  background-color: #273b49;
+  padding: 10px;
+}
+
+@media (max-width: 800px) {
+  .form-email input {
+    position: absolute;
+    width: 230px;
+    padding: 13px 11px;
+    top: 300px;
+    left: 20px;
+  }
+  .form-email button {
+    top: 300px;
+    left: 250px;
+    font-size: 1.2rem;
+  }
+}
+/*parte dois do site */
+.container-bg {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+    gap: 20px
+  width: 570px;
+  height: 671px;
+}
+
+.parte-2 h1 {
+  font-size: 4.5rem;
+  line-height: 102, 9px;
+  font-family: "alice", sans-serif;
+  margin-bottom: 30px;
+}
+
+.azul {
+  color: #1188ee;
+}
+.parte-2-icones {
+  font-family: "nunito";
+  font-size: 1, 5rem;
+  display: flex;
+  padding-top: 42px;
+  gap: 21px;
+  align-items: center;
+}
+
+.textop2 {
+  font-size: 1.25rem;
+  align-items: left;
+  padding-top: 42px;
+}
+
+.parte-2-icones {
+  position: relative;
+}
+.parte-2-icones p::after {
+  content: "";
+  display: block;
+  width: 560px;
+  height: 2px;
+  background-color: #eff4f9;
+  margin-top: 30px;
+}
+
+.parte-2-icones p::before {
+  content: "";
+  display: block;
+  width: 560px;
+  height: 2px;
+  background-color: #eff4f9;
+  margin-bottom: 30px;
+}
+
+/*.imagens img {
+  max-width: 100%;
+  display: block;
+}
+
+.img1 {
+  position: relative; 
+  top: 100px;
+  right: 10px;
+  margin-top: -100px;
+}
+
+.img2 {
+  position: absolute;
+}*/
+.parte-1 {
+  margin: 0 auto;
+}
+
+.parte-1-items {
+  font-size: 0, 875rem;
+  font-family: "nunito";
+}
+
+.negrito {
+  font-weight: bold;
+  margin-right: 5px;
+  color: #000000;
+}
+
+.parte-1-items {
+  color: #99aabb;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.item::before {
+  content: "";
+  width: 10px;
+  height: 2px;
+  background-color: #1188ee;
+  margin-right: 10px;
+}
+
+@media (max-width: 800px) {
+  .container-bg {
+    grid-template-columns: 1fr;
+  }
+}
